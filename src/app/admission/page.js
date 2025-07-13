@@ -87,7 +87,7 @@ const AdmissionPage = () => {
   }, [user]);
 
   return (
-    <div className="max-w-3xl min-h-screen mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6 text-center">
         Apply for Admission
       </h1>

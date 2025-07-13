@@ -72,10 +72,10 @@ const MyCollege = () => {
   };
 
   if (myColleges.length === 0)
-    return <p className="text-center">No College Here</p>;
+    return <p className="text-center text-3xl mt-10">No College Here</p>;
 
   return (
-    <div className="max-w-3xl max-h-fit mx-auto px-4 py-8">
+    <div className="max-w-3xl min-h-screen mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">My College Applications</h1>
 
       {myColleges.map((college) => (
